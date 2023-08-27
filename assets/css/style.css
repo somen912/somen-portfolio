@@ -1,0 +1,392 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* navigation section */
+
+.nav-section{
+    z-index: 1;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav-item .active{
+    border-bottom: 2px solid blue;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #ECF8F9;
+}
+
+/* notice section */
+
+.notice-section{
+    background-color: #e8f0fe;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.notice-section p{
+    padding: 1%;
+    color: #4477CE;
+}
+
+/* hero section */
+
+.hero-section{
+    text-align: center;
+    /* position: relative; */
+    height: 85vh;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.text-container h1{
+    top: 20px;
+    
+}
+
+.animated-text{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.animated-text h1{
+    font-size: 500%;
+    font-weight: 500;
+}
+
+.line{
+    line-height: 100%;
+}
+
+.line:first-child{
+    animation: text-anime 12s infinite;
+}
+
+@keyframes text-anime{
+    0%{
+        margin-top: 0px;
+    }
+    25%{
+        margin-top: -102px;
+    }
+    50%{
+        margin-top: -207px;
+    }
+    75%{
+        margin-top: -102px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+.blue{
+    color: #337CCF
+}
+
+.green{
+    color: #1A5D1A;
+}
+
+.red{
+    color: red;
+}
+
+.yellow{
+    color:#FFC436;
+}
+
+.purple{
+    color:#6527BE
+}
+
+.cta-section{
+    position: relative;
+    top: 265px;
+}
+
+.cta-section h2{
+    font-size: 300%;
+}
+
+.cta-section a{
+    margin-top: 2%;
+}
+
+
+/* about me section */
+
+.about-section{
+    margin-top: 5%;
+}
+
+.about-img img{
+    width:95%;
+    border-radius: 30px;
+    align-items: center;
+    margin: 2% auto;
+}
+
+.skill-container{
+    margin-top: 2%;
+}
+
+.skill-container h5{
+    font-size: 80%;
+    margin: 1% 0%;
+}
+
+.experience-container{
+    margin-top: 2%;
+}
+
+.experience-container h4{
+    font-size: 100%;
+    color: #337CCF;
+}
+
+.education-container{
+    margin-top: 2%;
+}
+
+.education-container .table th{
+    color: #337CCF;
+}
+
+
+/* 
+feature section */
+
+.feature-section{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.feature-section span{
+    color: #337CCF;
+}
+
+.feature-container h3{
+    font-size: 250%;
+}
+
+.feature{
+    margin: 5% 0%;
+    padding: 2%;
+}
+
+.feature:hover{
+    background-color: #ECF8F9;
+}
+
+.feature i{
+    font-size: 500%;
+    margin: 2% 0%;   
+}
+
+.feature p{
+    font-weight: 700;
+    font-size: 120%;
+}
+
+/* project-section */
+
+.portfolio-section{
+    text-align: center;
+    background-image: url("../img/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 5%;
+}
+
+.portfolio-section h2{
+    font-size: 250%;
+    margin: 3% 0%;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #F7F8F8;
+    margin: 3% auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-img, .project-content{
+    width: 45%;
+    height: 73vh;
+    object-fit: cover;
+}
+
+.project-img img{
+    width: 90%;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 12%;
+}
+
+.project-content{
+    background-color: white;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;
+    padding: 2%;
+}
+
+.project-content p{
+    text-align: justify;
+}
+
+.project-content h4{
+    color: #337CCF;
+}
+
+.project-content li, .project-content h5{
+    text-align: left;
+}
+
+.project-content a:hover{
+    background-color: #1A5D1A !important;
+    color: #FFC436;
+}
+
+
+
+/* CTA section */
+
+.cta-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.cta{
+    width: 65%;
+    text-align: center;
+    background-color: #e8f0fe;
+    margin: 0% auto;
+    padding: 5% 5%;
+    
+}
+
+
+/* footer section */
+
+.footer-section{
+    background-color: #e8f0fe;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+.social a{
+    font-size: 200%;
+    color: black;
+}
+
+.social a:hover{
+    color: #337CCF;
+}
+
+.links a{
+    margin: 0% 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover{
+    color: #337CCF;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .notice-section{
+        margin-top: 5%;
+    }
+
+    .animated-text h1{
+        font-size: 250%;
+    }
+
+    .animated-text{
+        top: 25%;
+        left: 0%;
+        height: 14vh;
+    }
+
+    .line{
+        padding: 1%;
+    }
+
+    .cta-section{
+        position: relative;
+        top: 200px;
+    }
+
+    .cta-section h2{
+        font-size: 225%;
+    }
+
+    .hero-section{
+        height: 60vh;
+    }
+
+    .feature-section{
+        margin-top: 15%;
+    }
+
+
+    .portfolio-section h2{
+        font-size: 250%;
+        margin: 10% 0%;
+    }
+
+
+    .project-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-img, .project-content{
+        width: 95%;
+        height: 100%;
+    }
+
+    .project-content{
+        padding: 5% 3%;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .project-img img{
+        width: 90%;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-left: 0%;
+    }
+
+    .cta{
+        width: 80%;
+        padding: 20% 5%;
+        
+    }
+
+
+}
